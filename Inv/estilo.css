@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho{
+  width: 1200px;
+  margin: auto;
+
+}
+
+.margen{
+  padding: 12px;
+}
+
+
+.titulo{
+  text-align: center;
+  margin: auto;
+  color: #5C59AA;
+}
+
+.sub{
+  text-align: center;
+}
+
+.rojo{
+  color: #943A4C;
+  font-weight: bold;
+}
+
+.ini{
+  margin-left: 200px;
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+.ult{
+  width: 30%;
+  vertical-align: top;
+  display: inline-block;
+  text-align: left;
+}
+
+.linea{
+  margin-left: 500px;
+  width: 100px;
+  height: 10px;
+  border: 0px;
+  background-color: #E7C74E;
+}
+
+.lista-materias {
+  list-style: none;
+  padding: 15px 20px;
+}
+
+.lista-materias li {
+  padding: 8px 0;
+}
+
+.fondo{
+  background-color: #E7E7E7;
+  border: 1px #A7C7E9 solid;
+  border-radius: 20px;
+}
+
+.botones{
+  margin-right: 920px;
+  margin-top: 30px;
+  background-color: #E7C74E;
+  width: 280px;
+  border-radius: 15px;
+
+}
+
+.bn{
+  color: white;
+  text-decoration: none;
+}
+
+details {
+  border: 1px solid #cccccc; 
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  background-color: #f9f9f9;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
